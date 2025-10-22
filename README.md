@@ -1,6 +1,5 @@
 # HI THERE ☕!!
 
-### 🚀 Meus GitHub Stats (tema: synthwave)
 
 ![Sofiaaleixo's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sofiaaleixo&show_icons=true&theme=dracula&hide_border=true&locale=pt-BR)
 
