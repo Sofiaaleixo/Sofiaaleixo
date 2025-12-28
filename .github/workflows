@@ -1,21 +1,27 @@
 name: Generate Snake Animation
 
 on:
-  schedule: # roda diariamente
+  schedule:  # executa automaticamente todos os dias à meia-noite
     - cron: "0 0 * * *"
-  workflow_dispatch:
+  workflow_dispatch:  # permite execução manual
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
         with:
           github_user_name: Sofiaaleixo
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
 
-      - name: Push snake.svg to the output branch
-        uses: actions/upload-artifact@v4
+      - name: Push to output branch
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          name: snake-artifact
-          path: dist/github-contribution-grid-snake.svg
+          branch: output
+          folder: dist
