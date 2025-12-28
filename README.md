@@ -14,4 +14,4 @@ I'm Sofia
   <img alt="PostgreSQL" title="PostgreSQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48" />&nbsp;
 </p>
 
-![Sofiaaleixo's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sofiaaleixo&show_icons=true)
+![Sofiaaleixo's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
