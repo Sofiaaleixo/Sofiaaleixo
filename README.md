@@ -16,3 +16,5 @@ My name is Sofia
 </p>
 
 ![Sofiaaleixo's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+
+![github-contribution-grid-snake](https://raw.githubusercontent.com/Sofiaaleixo/Sofiaaleixo/output/github-contribution-grid-snake.svg)
