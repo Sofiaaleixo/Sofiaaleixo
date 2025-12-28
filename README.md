@@ -1,6 +1,6 @@
 # HELLO THERE ☕!!
 
-I'm Sofia 
+My name is Sofia 
 
 ### Some 🧰's I learned
 
